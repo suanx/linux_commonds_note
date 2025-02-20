@@ -43,8 +43,8 @@ ls -a               # List all files, including hidden ones
 mv <folder> .<folder>  # Hide an existing folder (unhide by renaming)
 
 # Package Management (Ubuntu/Debian)
-OBOBOBOBOBsudo apt update         # Update package lists
-OBOBOBOBOBOBOBOBOBOBsudo apt upgrade        # Upgrade installed packages
+sudo apt update         # Update package lists
+sudo apt upgrade        # Upgrade installed packages
 sudo apt install <pkg>  # Install a package
 sudo apt remove <pkg>   # Remove a package
 
@@ -69,10 +69,10 @@ vi or vim             # Open file in Vim editor
 G                     # Go to the end of the file
 gg                    # Go to the top of the file
 0                     # Go to the beginning of a line
-OAOAOAOAOAOAOAOAOAOA$                     # Go to the end of a line
+$                     # Go to the end of a line
 "line_numG"           # Go to a specific line
 yy                    # Copy a line
-OAOAOAOAOAdw                    # Delete a word
+dw                    # Delete a word
 :%d                   # Delete all content
 p                     # Paste copied content
 u                     # Undo
@@ -128,4 +128,3 @@ echo -e "line1 \nline2"         # Print with a newline
 echo -e "line1 \tline2"         # Print with a tab space
 echo -e "line1 \bline2"         # Remove a character before \b
 echo -e "line1 \vline2"         # Print with vertical spacing
-
